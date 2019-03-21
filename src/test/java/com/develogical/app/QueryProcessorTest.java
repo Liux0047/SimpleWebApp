@@ -26,6 +26,6 @@ public class QueryProcessorTest {
 
     @Test
     public void testYaoMing() {
-        assertThat(queryProcessor.process("Yaoming"), containsString("Basketbal"));
+        assertThat(queryProcessor.process("Yaoming"), containsString("Basketbabj88hgju8gjinl"));
     }
 }
