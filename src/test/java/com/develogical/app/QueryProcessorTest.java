@@ -28,4 +28,9 @@ public class QueryProcessorTest {
     public void testYaoMing() {
         assertThat(queryProcessor.process("Yaoming"), containsString("Basketbal"));
     }
+
+    @Test
+    public void testBob() {
+        assertThat(queryProcessor.process("bob"), containsString("hello"));
+    }
 }

@@ -11,6 +11,11 @@ public class QueryProcessor {
             return "Chinese Basketball Player " +
                      "And something";
         }
+
+        if (query.toLowerCase().contains("bob")) {
+            return "Bob is great person, hello " +
+                    "And something";
+        }
         return "";
     }
 }
